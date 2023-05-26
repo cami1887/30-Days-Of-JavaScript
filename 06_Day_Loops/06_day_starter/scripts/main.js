@@ -130,21 +130,20 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
     // }
 
 // 9: Use for loop to iterate from 0 to 100 and print only prime numbers
-        // let prime = [2, 3]; 
-        // let entry;
-        // console.log(2);
-        // console.log(3);
-        //     for (let i=1; i < 101; i++) {
-        //         // prime = (6*i)-1;
-        //             // if (prime%5 != 0) {
-        //                 for (let i=0; i< prime.length; i++) {
-        //                     if (entry%prime[i] != 0 && entry%5 != 0) {
-        //                         prime.push(entry);
-        //                     }
-        //                 }
-                        
-        //                 console.log(prime);
-        //             }     
+    //    for (let i=2; i<101; i++) {
+    //     if (i===2 || i === 3) {
+    //         console.log(i);
+    //     }
+    //     else {
+    //         let array = [];
+    //         for (let n=2; n<i; n++) {
+    //             array.push(i%n);
+    //         }
+    //         if(!array.includes(0)) {
+    //             console.log(i);
+    //         }
+    //     }
+    //    }
 
 // 10: Use for loop to iterate from 0 to 100 and print the sum of all numbers.
     // The sum of all numbers from 0 to 100 is 5050.
