@@ -157,7 +157,6 @@ dateContainer.style.backgroundColor = `rgb(${rgbTwo}, ${rgbThree}, ${rgbOne})`
 
 for (let i=0; i<listItems.length; i++) {
     if (listItems[i].innerText.includes('Coming')) {
-        console.log('works')
         listItems[i].style.backgroundColor = 'red';
     }
     if (listItems[i].innerText.includes('Done')) {
