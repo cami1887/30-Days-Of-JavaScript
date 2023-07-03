@@ -118,3 +118,5 @@ for (let planet of planets) {
     option.innerText = planet;
     selection.append(option);
 }
+
+console.log("test");
