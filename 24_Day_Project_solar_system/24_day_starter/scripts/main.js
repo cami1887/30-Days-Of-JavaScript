@@ -120,3 +120,5 @@ for (let planet of planets) {
 }
 
 console.log("test");
+//single line comment
+/*multiline comment */
