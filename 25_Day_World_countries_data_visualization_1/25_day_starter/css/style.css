@@ -1,0 +1,73 @@
+body {
+    font-family: arial;
+    background-color: rgb(233, 232, 232);
+}
+
+h2 {
+    color: rgb(255, 174, 0);
+    font: 60px arial;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin: 10px auto 20px;
+    text-align: center;
+}
+
+.graph-buttons {
+    text-align: center;
+    margin: auto;
+}
+
+.change-background {
+    padding-top: 25px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 0px 4px rgba(171, 171, 171, 0.489);
+}
+
+.graph-title {
+    padding-bottom: 20px;
+    font: 18px arial;
+}
+
+button {
+    background-color: rgb(255, 174, 0);
+    padding: 10px 35px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.graph-container {
+    margin: auto;
+    text-align: center;
+}
+.graphs {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding-left: 60px;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section div {
+    width: 500px;
+}
+section p {
+    width: 200px;
+    text-align: left;
+}
+
