@@ -2,16 +2,68 @@
 <html lang="en">
 
 <head>
-	<title>30DaysOfJavaScript:11 Day </title>
+	<title>Leaderboard </title>
+	<link rel="stylesheet" href="style.css"/>
+
 </head>
 
 <body>
-	<h1>30DaysOfJavaScript:11 Day</h1>
-	<h2>Destructuring and Spread</h2>
-
-	<script src="./data/countries_data.js"></script>
+	<h1>30 Days Javascript Challenge Leaderboard</h1>
+	<div class="form">
+		<input type="text" id="first-name" placeholder="First Name"/>
+		<input type="text" id="last-name" placeholder="Last Name"/>
+		<input type="text" id="country" placeholder="Country"/>
+		<input type="text" id="player-score" placeholder="Player Score"/>
+		<button>Add Player</button>
+	</div>
+	<p class="error"></p>
+	<ul class="leaderboard">
+		<li id = "1">
+			<div class="container">
+				<div><span class="first-name">MARTHA </span><span class="last-name">YOHANES</span></div>
+				<div class="date">Tue Jul 11 2023 13:58:37 GMT-0700 (Pacific Daylight Time)</div>
+			</div>
+			<div class="country-name">UNITED KINGDOM</div>
+			<div class="points">90</div>
+			<button class="trash">Trash</button>
+			<button class="addFive">+5</button>
+			<button class="subtractFive">-5</button>
+		</li>
+		<li id ="2">
+			<div class="container">
+				<div><ddddwdsd class="first-name">MARTHA </span><span class="last-name">YOHANES</span></div>
+				<div class="date">Tue Jul 11 2023 13:58:37 GMT-0700 (Pacific Daylight Time)</div>
+			</div>
+			<div class="country-name">FINLAND</div>
+			<div class="points">89</div>
+			<button class="trash">Trash</button>
+			<button class="addFive">+5</button>
+			<button class="subtractFive">-5</button>
+		</li>
+		<li id ="3">
+			<div class="container">
+				<div><span class="first-name">MARTHA </span><span class="last-name">YOHANES</span></div>
+				<div class="date">Tue Jul 11 2023 13:58:37 GMT-0700 (Pacific Daylight Time)</div>
+			</div>
+			<div class="country-name">SWEDEN</div>
+			<div class="points">85</div>
+			<button class="trash">Trash</button>
+			<button class="addFive">+5</button>
+			<button class="subtractFive">-5</button>
+		</li>
+		<li id="4">
+			<div class="container">
+				<div><span class="first-name">MARTHA </span><span class="last-name">YOHANES</span></div>
+				<div class="date">Tue Jul 11 2023 13:58:37 GMT-0700 (Pacific Daylight Time)</div>
+			</div>
+			<div class="country-name">UNITED STATES</div>
+			<div class="points">70</div>
+			<button class="trash">Trash</button>
+			<button class="addFive">+5</button>
+			<button class="subtractFive">-5</button>
+		</li>
+	</ul>
 	<script src="./scripts/main.js"></script>
-
 </body>
 
 </html>

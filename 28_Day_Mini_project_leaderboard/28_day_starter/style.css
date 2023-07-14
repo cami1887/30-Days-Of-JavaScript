@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    font: 28px arial;
+    letter-spacing: 2px;
+    
+}
+
+.form {
+    text-align: center;
+}
+
+input {
+    padding: 10px;    
+    border: solid 1px;
+    border-color: pink;
+    font: 18px arial;
+    color: lightgrey;
+    letter-spacing: 2px;
+    margin: 20px auto; 
+    width: 140px;
+}
+
+button {
+    background-color: pink;
+    padding: 11px;
+    border: none;
+    color: white;
+    font: 18px arial;
+}
+
+p {
+    color: red;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    width: 400px;
+    margin: auto;
+    padding-right: 410px;
+}
+
+li {
+    display: grid;
+    grid-template-columns: 300px 170px 100px 50px 50px 50px;
+    gap: 10px;
+    background-color: lightpink;
+    margin: auto;
+    padding: 5px;
+}
+
+.trash, .addFive, .subtractFive {
+    padding: 4px;
+    margin-top: 2px;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    font: 12px arial;
+    letter-spacing: 1px;
+
+}
+
+.first-name, .last-name {
+    font: 14px arial;
+    letter-spacing: 1px;
+}
+
+.country-name {
+    padding-top: 20px;
+    font: 14px arial;
+    letter-spacing: 1px;
+}
+
+.points {
+    padding-top: 20px;
+    font: 14px arial;
+    letter-spacing: 1px;
+
+}
+
+.date {
+    font: 10px arial;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
